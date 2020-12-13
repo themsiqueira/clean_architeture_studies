@@ -62,7 +62,7 @@ describe('Email validation', () => {
   })
 
   test('should not accept email without an at-sign', () => {
-    const email = 'anyemailemail.com'
+    const email = 'anyemail.com'
     expect(Email.validate(email)).toBeFalsy()
   })
 })
