@@ -1,4 +1,4 @@
-import { User } from '../../../src/use-cases/entities/user'
+import { User } from '../../../src/use-cases/entities'
 
 describe('User domain class', () => {
   test('should not create user with invalid e-mail address', () => {
